@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_snc_peak_event_m_event_user" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Confirmed</label>
+            <language>en</language>
+            <name>x_snc_peak_event_m_event_user</name>
+            <sequence>1</sequence>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:43:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9d97ff4dbd10300bf2354f9dc9619ae</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:43:33</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting LIst</label>
+            <language>en</language>
+            <name>x_snc_peak_event_m_event_user</name>
+            <sequence>2</sequence>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:43:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08caf338dbd10300bf2354f9dc961900</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:43:47</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_snc_peak_event_m_event_user</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:43:17</sys_created_on>
+            <sys_id>6fbafff4dbd10300bf2354f9dc961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Peak Event Management" source="x_snc_peak_event_m">fb9c9980db158b00a2505cb3dc961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Peak Event Management">fb9c9980db158b00a2505cb3dc961938</sys_scope>
+            <sys_update_name>sys_choice_x_snc_peak_event_m_event_user_status</sys_update_name>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:43:17</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

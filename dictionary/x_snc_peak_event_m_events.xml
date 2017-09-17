@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Events" max_length="40" name="x_snc_peak_event_m_events" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Agenda" mandatory="true" max_length="1000" name="agenda" type="string"/>
+        <element label="Event Date" mandatory="true" max_length="40" name="event_date" type="glide_date_time"/>
+        <element label="Link" max_length="500" name="link" read_only="true" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="500" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Venue" mandatory="true" max_length="500" name="venue" type="string"/>
+    </element>
+</database>

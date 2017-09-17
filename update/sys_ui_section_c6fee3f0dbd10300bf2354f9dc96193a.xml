@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="c6fee3f0dbd10300bf2354f9dc96193a" sys_domain="global" table="x_snc_peak_event_m_events" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:53:35</sys_created_on>
+            <sys_id>e75fa3f0dbd10300bf2354f9dc9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:53:35</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:53:35</sys_created_on>
+            <sys_id>7b5fa3f0dbd10300bf2354f9dc9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:53:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>2</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:53:36</sys_created_on>
+            <sys_id>fb5fa3f0dbd10300bf2354f9dc9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:53:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:53:36</sys_created_on>
+            <sys_id>7f5fa3f0dbd10300bf2354f9dc9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:53:36</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>venue</element>
+            <position>4</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:53:36</sys_created_on>
+            <sys_id>ff5fa3f0dbd10300bf2354f9dc9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:53:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_date</element>
+            <position>5</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:53:36</sys_created_on>
+            <sys_id>735fa3f0dbd10300bf2354f9dc9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:53:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:53:36</sys_created_on>
+            <sys_id>f35fa3f0dbd10300bf2354f9dc9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:53:36</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>agenda</element>
+            <position>7</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:53:36</sys_created_on>
+            <sys_id>775fa3f0dbd10300bf2354f9dc9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:53:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link</element>
+            <position>8</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:53:36</sys_created_on>
+            <sys_id>f75fa3f0dbd10300bf2354f9dc9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:53:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>9</position>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:08:35</sys_created_on>
+            <sys_id>9fc2ff34dbd10300bf2354f9dc9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_peak_event_m_events" sys_domain="global" view="Default view">c6fee3f0dbd10300bf2354f9dc96193a</sys_ui_section>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:08:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_peak_event_m_events</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 06:51:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6fee3f0dbd10300bf2354f9dc96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_peak_event_m_events</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Peak Event Management" source="x_snc_peak_event_m">fb9c9980db158b00a2505cb3dc961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Peak Event Management">fb9c9980db158b00a2505cb3dc961938</sys_scope>
+            <sys_update_name>sys_ui_section_c6fee3f0dbd10300bf2354f9dc96193a</sys_update_name>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 06:51:50</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

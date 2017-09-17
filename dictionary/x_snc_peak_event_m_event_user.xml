@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Event User" max_length="40" name="x_snc_peak_event_m_event_user" type="collection">
+        <element label="Email" mandatory="true" max_length="100" name="email" type="string"/>
+        <element label="Event" mandatory="true" max_length="32" name="event" read_only="true" reference="x_snc_peak_event_m_events" type="reference"/>
+        <element label="Full Name" mandatory="true" max_length="200" name="full_name" type="string"/>
+        <element label="Location (City)" mandatory="true" max_length="40" name="location_city" type="string"/>
+        <element label="Mobile" mandatory="true" max_length="40" name="mobile" type="string"/>
+        <element label="Partner Name" mandatory="true" max_length="32" name="partner_name" reference="x_snc_peak_event_m_partner" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Confirmed" sequence="1" value="1"/>
+                <element label="Waiting LIst" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="T-Shirt Size" mandatory="true" max_length="40" name="t_shirt_size" type="choice">
+            <choice>
+                <element label="S" sequence="1" value="S"/>
+                <element label="M" sequence="2" value="M"/>
+                <element label="L" sequence="3" value="L"/>
+                <element label="XL" sequence="4" value="XL"/>
+                <element label="XXL" sequence="5" value="XXL"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="partner_name"/>
+        </index>
+        <index name="index2">
+            <element name="event"/>
+        </index>
+    </element>
+</database>

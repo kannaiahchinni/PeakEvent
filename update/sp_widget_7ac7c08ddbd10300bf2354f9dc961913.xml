@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function controller($scope,$log) {
+  /* widget controller */
+  var c = this;
+	c.event = {};
+	
+	//$scope.field.value ='a87b426cdb154b00bf2354f9dc96197d';
+	
+	$scope.$on("field.change", function(evt, parms) {
+		$log.debug(parms);	
+	
+});
+	
+	$scope.partner = {
+		displayValue:'Servicenow.com',
+    value: 'a87b426cdb154b00bf2354f9dc96197d',
+    name: 'name'
+	};
+	
+	
+	$log.debug($scope.field);
+	$log.debug($scope.g_form);
+	
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>peak_registration</id>
+        <internal>false</internal>
+        <link/>
+        <name>Peak Registration</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>karunakar</sys_created_by>
+        <sys_created_on>2017-09-17 08:40:18</sys_created_on>
+        <sys_id>7ac7c08ddbd10300bf2354f9dc961913</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Peak Registration</sys_name>
+        <sys_package display_value="Peak Event Management" source="x_snc_peak_event_m">fb9c9980db158b00a2505cb3dc961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peak Event Management">fb9c9980db158b00a2505cb3dc961938</sys_scope>
+        <sys_update_name>sp_widget_7ac7c08ddbd10300bf2354f9dc961913</sys_update_name>
+        <sys_updated_by>karunakar</sys_updated_by>
+        <sys_updated_on>2017-09-17 09:31:44</sys_updated_on>
+        <template><![CDATA[<div>
+    
+  <form class="form-horizontal">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Partner Name</label>
+    <div class="col-sm-10">
+      <sn-record-picker field="partner" table="'x_snc_peak_event_m_partner'" display-field="'name'" value-field="'sys_id'" search-fields="'name'" default-query="'active=true'"  page-size="100" ></sn-record-picker>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">User Name</label>
+    <div class="col-sm-10"> 
+      <input type="text" class="form-control" id="name" placeholder="Enter user Full Name">
+    </div>
+  </div>
+   <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Email</label>
+    <div class="col-sm-10"> 
+      <input type="email" class="form-control" id="email" placeholder="Enter Email">
+    </div>
+  </div>  
+    
+   <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Event Name</label>
+    <div class="col-sm-10"> 
+      <input type="text" class="form-control" id="eventName" placeholder="Event Name">
+    </div>
+  </div>  
+    
+     <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Mobile</label>
+    <div class="col-sm-10"> 
+      <input type="text" class="form-control" id="mobile" placeholder="Enter mobile number">
+    </div>
+  </div>
+    
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+  </div>
+</form>
+  
+  
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

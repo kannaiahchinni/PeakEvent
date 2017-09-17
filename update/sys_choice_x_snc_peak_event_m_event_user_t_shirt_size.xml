@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="t_shirt_size" table="x_snc_peak_event_m_event_user" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t_shirt_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>S</label>
+            <language>en</language>
+            <name>x_snc_peak_event_m_event_user</name>
+            <sequence>1</sequence>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:44:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14e97ff4dbd10300bf2354f9dc9619af</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:46:56</sys_updated_on>
+            <value>S</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t_shirt_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>M</label>
+            <language>en</language>
+            <name>x_snc_peak_event_m_event_user</name>
+            <sequence>2</sequence>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:44:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf0bf738dbd10300bf2354f9dc96196c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:47:01</sys_updated_on>
+            <value>M</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t_shirt_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>L</label>
+            <language>en</language>
+            <name>x_snc_peak_event_m_event_user</name>
+            <sequence>3</sequence>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:45:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e1bf738dbd10300bf2354f9dc96196e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:47:05</sys_updated_on>
+            <value>L</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t_shirt_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>XL</label>
+            <language>en</language>
+            <name>x_snc_peak_event_m_event_user</name>
+            <sequence>4</sequence>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:46:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>362b3b38dbd10300bf2354f9dc961910</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:47:15</sys_updated_on>
+            <value>XL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t_shirt_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>XXL</label>
+            <language>en</language>
+            <name>x_snc_peak_event_m_event_user</name>
+            <sequence>5</sequence>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:46:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>776b3b38dbd10300bf2354f9dc961911</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:47:21</sys_updated_on>
+            <value>XXL</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>t_shirt_size</element>
+            <name>x_snc_peak_event_m_event_user</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>karunakar</sys_created_by>
+            <sys_created_on>2017-09-17 07:44:35</sys_created_on>
+            <sys_id>2e0bb738dbd10300bf2354f9dc961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>t_shirt_size</sys_name>
+            <sys_package display_value="Peak Event Management" source="x_snc_peak_event_m">fb9c9980db158b00a2505cb3dc961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Peak Event Management">fb9c9980db158b00a2505cb3dc961938</sys_scope>
+            <sys_update_name>sys_choice_x_snc_peak_event_m_event_user_t_shirt_size</sys_update_name>
+            <sys_updated_by>karunakar</sys_updated_by>
+            <sys_updated_on>2017-09-17 07:44:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
